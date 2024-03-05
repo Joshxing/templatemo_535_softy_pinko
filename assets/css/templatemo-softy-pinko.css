@@ -1648,11 +1648,12 @@ footer .copyright {
   }
 
   footer h2 {
-    font-size: 40px; /* Reduce h2 font size on mobile */
+    font-size: 30px; /* Reduce h2 font size on mobile */
   }
 
   footer .social {
     text-align: center; /* Center-align social icons on mobile */
+    display: none;
   }
 
   footer .email,
@@ -1661,6 +1662,9 @@ footer .copyright {
   }
   footer .version {
     text-align: center;
+  }
+  footer .email {
+    display: none;
   }
 }
 
