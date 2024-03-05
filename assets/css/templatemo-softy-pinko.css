@@ -1642,16 +1642,25 @@ footer .copyright {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  footer .col-lg-4 {
+    width: 100%; /* Set column width to full width on mobile */
+    margin-bottom: 10px; /* Reduce margin bottom for closer spacing */
+  }
+
   footer h2 {
-    font-size: 40px;
+    font-size: 40px; /* Reduce h2 font size on mobile */
   }
 
-  footer h6 {
-    font-size: 16px;
+  footer .social {
+    text-align: center; /* Center-align social icons on mobile */
   }
 
-  .btn-custom {
-    padding: 10px 30px;
+  footer .email,
+  footer .version {
+    margin-top: 10px; /* Reduce margin top for closer spacing on mobile */
+  }
+  footer .version {
+    text-align: center;
   }
 }
 
