@@ -323,6 +323,19 @@ a.main-button-slider {
   transition: all 0.3s ease 0s;
 }
 
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  a.main-button-slider {
+    padding: 18px 20px; /* Adjusted padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  a.main-button-slider {
+    padding: 18px 20px; /* Further adjusted padding for smaller screens */
+  }
+}
+
 a.main-button-slider:hover {
   background-color: #05F;
 }
@@ -785,6 +798,19 @@ welcome
 }
 
 
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .small-image {
+    width: 100%; /* Adjusted width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .images-container {
+    margin-left: 0; /* Remove left margin on smaller screens */
+  }
+}
+
+
 /* 
 ---------------------------------------------
 features
@@ -872,6 +898,14 @@ features
 .styled-content h2 {
   font-weight: inherit; /* Inherit the font-weight from the parent */
   font-size: 45px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 576px) {
+  .styled-content h2 {
+    font-size: 32px; /* Adjusted font size for smaller screens */
+    padding-bottom: 20px;
+  }
 }
 
 
@@ -1405,6 +1439,12 @@ pricing
   padding-left: 50px;
 }
 
+/* Media query for mobile devices */
+@media screen and (max-width: 576px) {
+  .pricing-item {
+    margin: 20px 0; /* Add space between pricing items vertically */
+  }
+}
 /* 
 ---------------------------------------------
 blog
@@ -1780,6 +1820,14 @@ preloader
   font-size: 16px !important;
   font-weight: 700 !important;
 }
+
+/* Media query for mobile devices */
+@media screen and (max-width: 576px) {
+  .custom-heading {
+    font-size: 35px; /* Adjusted font size for smaller screens */
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .h2-container {
