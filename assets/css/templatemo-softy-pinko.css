@@ -645,6 +645,27 @@ header
   }
 }
 
+/* Default styles */
+.mobile-logo {
+  display: none; /* Hide the logo by default */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 576px) {
+  .main-nav {
+    display: none; /* Hide the navbar on mobile devices */
+  }
+  
+  .mobile-logo {
+    display: block; /* Show the logo on mobile devices */
+    text-align: center; /* Center the logo */
+    margin-top: 10px; /* Adjust the top margin as needed */
+  }
+  
+  .header-area {
+    background-color: transparent; /* Remove the background color on mobile */
+  }
+}
 /* 
 ---------------------------------------------
 welcome
