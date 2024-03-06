@@ -725,7 +725,7 @@ welcome
   }
   .welcome-area .header-text h2 {
     font-size: 28px; /* Adjust the font size for smaller screens */
-    margin-top: -150px; /* Adjust the margin-top for smaller screens */
+    margin-top: -100px; /* Adjust the margin-top for smaller screens */
   }
   .features-small-item {
     margin-left: -20px;
