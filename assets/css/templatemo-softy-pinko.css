@@ -665,8 +665,8 @@ welcome
 
 .welcome-area .header-text {
   position: absolute;
-  top: 68%;
-  transform: translateY(-55%);
+  top: 50%;
+  transform: translateY(-50%);
   text-align: center;
   width: 100%;
 }
@@ -676,7 +676,7 @@ welcome
   font-size: 37px;
   line-height: 1.2; /* Adjusted to fit two lines */
   letter-spacing: 0.64px;
-  margin-bottom: 30px;
+  margin-bottom: 20px; /* Reduced margin for smaller screens */
   color: #1A202C;
 }
 
@@ -684,27 +684,25 @@ welcome
   font-weight: 400;
   font-size: 15px;
   color: black;
-  line-height: 28px;
+  line-height: 24px; /* Adjusted line height for smaller screens */
   letter-spacing: 0.25px;
-  margin-bottom: 40px;
+  margin-bottom: 20px; /* Reduced margin for smaller screens */
   position: relative;
 }
 
-
-
 .images-container {
   text-align: center;
-  margin-top: 50px;
-  margin-left: -180px;
+  margin-top: 30px; /* Reduced margin for smaller screens */
 }
 
 .small-image {
-  width: 950px; /* Increased width */
-  height: 920px; /* Increased height */
+  width: 100%; /* Adjusted width for smaller screens */
+  max-width: 600px; /* Maximum width for smaller screens */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .center-image {
-  max-width: 380vw; /* Make sure the image doesn't exceed its container */
+  max-width: 100%; /* Adjusted max-width for smaller screens */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove any default inline styles */
   margin: 0 auto; /* Center the image horizontally */
