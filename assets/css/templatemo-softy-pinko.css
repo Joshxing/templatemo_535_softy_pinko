@@ -665,7 +665,7 @@ welcome
 
 .welcome-area .header-text {
   position: absolute;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
   text-align: center;
   width: 100%;
@@ -693,16 +693,19 @@ welcome
 .images-container {
   text-align: center;
   margin-top: 30px; /* Reduced margin for smaller screens */
+  margin-top: 50px;
+  margin-left: -180px;
+  margin-bottom: -50px;
 }
 
 .small-image {
-  width: 100%; /* Adjusted width for smaller screens */
+  width: 950px; /* Adjusted width for smaller screens */
   max-width: 600px; /* Maximum width for smaller screens */
-  height: auto; /* Maintain aspect ratio */
+  height: 950px; /* Maintain aspect ratio */
 }
 
 .center-image {
-  max-width: 100%; /* Adjusted max-width for smaller screens */
+  max-width: 150vw; /* Adjusted max-width for smaller screens */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove any default inline styles */
   margin: 0 auto; /* Center the image horizontally */
