@@ -669,7 +669,7 @@ header
     background-color: transparent; /* Remove the background color on mobile */
   }
   .header-area.header-sticky .logo {
-    margin-left: -70px;
+    margin-left: -50px;
   }
 }
 /* 
