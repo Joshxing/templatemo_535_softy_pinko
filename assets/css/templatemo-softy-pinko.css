@@ -455,12 +455,12 @@ header
   height: 40px;
   line-height: 40px;
   border: transparent;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
   font-family: "Open Sans", sans-serif
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: rgba(13, 93, 254, 0.5);
+  color: #05F;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -483,7 +483,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #3B566E;
+  background-color: #05F;
   display: block;
   position: absolute;
   width: 30px;
@@ -497,7 +497,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #3B566E;
+  background-color: #05F;
   display: block;
   position: absolute;
   width: 30px;
@@ -572,7 +572,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: rgba(13, 93, 254, 0.5);
+  color: #05F;
 }
 
 @media (max-width: 1200px) {
@@ -1376,14 +1376,17 @@ pricing
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
   color: #05F;
+  font-weight: 700;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .price {
   color: #05F;
+  font-weight: 700;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .period {
   color: #05F;
+  font-weight: 700;
 }
 
 .pricing-item .pricing-header {
@@ -1425,7 +1428,7 @@ pricing
 
 .pricing-item .pricing-body .price-wrapper .currency {
   height: 47px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   color: #05F;
   position: relative;
@@ -1433,14 +1436,14 @@ pricing
 }
 
 .pricing-item .pricing-body .price-wrapper .price {
-  font-weight: 500;
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 38px;
   color: #05F;
 }
 
 .pricing-item .pricing-body .price-wrapper .period {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 28px;
   color: #05F;
   display: block;
   letter-spacing: 0.88px;
