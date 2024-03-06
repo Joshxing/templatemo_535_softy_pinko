@@ -110,6 +110,7 @@ html,
 body {
   background: #fff;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 ::selection {
