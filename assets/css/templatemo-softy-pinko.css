@@ -735,7 +735,7 @@ welcome
 
 @media (max-width: 991px) {
   .welcome-area .header-text {
-    top: 65% !important;
+    top: 55% !important;
     transform: perspective(1px) translateY(-60%) !important;
     text-align: center;
   }
