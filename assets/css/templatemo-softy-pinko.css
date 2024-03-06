@@ -579,6 +579,7 @@ header
   .header-area .main-nav .nav li {
     padding-left: 12px;
     padding-right: 12px;
+
   }
   .header-area .main-nav:before {
     display: none;
@@ -604,6 +605,7 @@ header
   }
   .header-area .main-nav {
     overflow: hidden;
+    display: none;
   }
   .header-area .main-nav .nav {
     float: none;
@@ -660,6 +662,7 @@ header
     display: block; /* Show the logo on mobile devices */
     text-align: center; /* Center the logo */
     margin-top: 10px; /* Adjust the top margin as needed */
+    align-items: center;
   }
   
   .header-area {
