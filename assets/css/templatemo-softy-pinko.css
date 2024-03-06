@@ -721,7 +721,7 @@ welcome
     margin-bottom: -450px;
   }
   .welcome-area {
-    height: 180vh;
+    height: 120vh;
   }
   .welcome-area .header-text h2 {
     font-size: 28px; /* Adjust the font size for smaller screens */
