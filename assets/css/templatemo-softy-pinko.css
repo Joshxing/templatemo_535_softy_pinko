@@ -668,6 +668,9 @@ header
   .header-area {
     background-color: transparent; /* Remove the background color on mobile */
   }
+  .header-area.header-sticky .logo {
+    margin-left: -70px;
+  }
 }
 /* 
 ---------------------------------------------
