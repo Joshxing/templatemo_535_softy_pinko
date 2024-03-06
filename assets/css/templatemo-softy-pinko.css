@@ -1717,6 +1717,13 @@ footer .copyright {
   }
 }
 
+/* Media query for mobile devices */
+@media screen and (max-width: 576px) {
+  .text-center h6 {
+    font-size: 12px; /* Adjusted font size for smaller screens */
+  }
+}
+
 /* 
 ---------------------------------------------
 preloader
