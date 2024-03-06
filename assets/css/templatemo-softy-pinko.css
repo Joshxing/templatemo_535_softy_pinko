@@ -1710,6 +1710,7 @@ footer .copyright {
   }
   footer .version {
     text-align: center;
+    margin-bottom: -50px;
   }
   footer .email {
     display: none;
