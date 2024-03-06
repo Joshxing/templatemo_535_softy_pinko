@@ -775,7 +775,7 @@ welcome
   }
   .welcome-area .header-text p {
     text-align: center;
-    color: #fff;
+    color: black;
     margin-bottom: 20px;
   }
   .welcome-area {
@@ -825,7 +825,7 @@ welcome
   }
   .welcome-area .header-text p {
     text-align: center;
-    color: #fff;
+    color: black;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 40px;
