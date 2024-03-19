@@ -1968,3 +1968,43 @@ preloader
     padding: 2rem;
   }
 }
+
+
+
+
+@keyframes wave {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.tools-used img {
+  animation: wave 3s infinite;
+}
+
+@media (max-width: 767px) {
+  .tools-used img {
+    width: 100%; /* Make images responsive on mobile */
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tools-used .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .tools-used .col-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+
+  .tools-used img {
+      margin: 0; /* Remove margin */
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 0;
+  }
+}
